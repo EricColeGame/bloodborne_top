@@ -26,8 +26,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     metadataBase: new URL(siteUrl),
     applicationName: siteConfig.name,
     manifest: "/manifest.json",
-    title: { default: "Bloodborne Wiki - Bosses, Weapons & Walkthroughs", template: "%s" },
-    description: "Explore Bloodborne with detailed boss guides, weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies.",
+    title: { default: "Bloodborne Wiki", template: "%s" },
+    description: "Explore Bloodborne with boss guides, weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies.",
+    keywords: ["Bloodborne", "Bloodborne Wiki", "PS4", "boss guide", "trick weapons", "walkthrough", "builds", "The Old Hunters", "lore"],
     icons: {
       icon: [
         { url: "/favicon.ico", sizes: "32x32" },
@@ -38,8 +39,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       shortcut: "/favicon.ico",
     },
     appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Bloodborne Wiki" },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title: "Bloodborne Wiki - Bosses, Weapons & Walkthroughs", description: "Explore Bloodborne with boss guides, weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies.", images: [{ url: image, width: 1920, height: 1080, alt: "Bloodborne key art" }] },
+    twitter: { card: "summary_large_image", title: "Bloodborne Wiki - Bosses, Weapons & Walkthroughs", description: "Boss guides, trick weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, and lore for Bloodborne.", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -54,8 +55,10 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     "@type": "Organization",
     name: siteConfig.name,
     url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
-    image: `${siteUrl}/images/hero.webp`,
+    "logo": `${siteUrl}/android-chrome-512x512.png`,
+    "image": `${siteUrl}/images/hero.webp`,
+    description: siteConfig.description,
+    sameAs: [siteConfig.gameUrl, siteConfig.social?.youtube, siteConfig.social?.twitter].filter(Boolean),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;

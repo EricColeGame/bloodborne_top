@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-    "legalNotice": "Non-official fan wiki. Made by players, for players."
+    "name": "Bloodborne Wiki",
+    "shortName": "Bloodborne",
+    "tagline": "Explore Yharnam, Master the Hunt",
+    "description": "Explore Bloodborne with boss guides, trick weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies.",
+    "legalNotice": "Non-official fan wiki. Bloodborne is a trademark of Sony Interactive Entertainment. Made by hunters, for hunters."
   },
   "nav": {
     "races": "Races",
@@ -26,22 +26,22 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Bloodborne Wiki - Bosses, Weapons & Walkthroughs",
+      "description": "Explore Bloodborne with boss guides, weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Gothic Action RPG",
+      "title": "Bloodborne Wiki",
+      "description": "Explore Yharnam, master trick weapons and firearms, defeat challenging bosses, discover hidden lore, and uncover the secrets of Bloodborne and The Old Hunters DLC.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "Release Date: March 24, 2015",
+        "Original Platform: PS4",
+        "Major DLC: The Old Hunters",
+        "Genre: Action RPG"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
+      "secondaryCta": "Boss Guides",
+      "tertiaryCta": "Weapons & Builds",
       "videoLabel": "Official media"
     },
     "updates": {
@@ -342,10 +342,10 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Master the Hunt?",
+      "description": "From your first steps in Central Yharnam to the nightmares of The Old Hunters, our community wiki covers bosses, trick weapons, builds, and hidden lore.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "secondary": "Play on PlayStation"
     }
   },
   "bosses": {
@@ -366,7 +366,7 @@
     "activeCodes": "Active Codes",
     "updated": "Updated",
     "viewAllCodes": "View all codes",
-    "playOnRoblox": "Play on Roblox",
+    "playOnRoblox": "Play on PlayStation",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
     "nextSteps": "Next Steps",
@@ -379,17 +379,17 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Bloodborne Wiki",
+    "about": "Bloodborne Wiki is an independent fan-built guide hub covering boss strategies, trick weapons, builds, The Old Hunters DLC, hidden lore, and essential game knowledge for new and veteran hunters alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
-    "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "copyright": "2026 Bloodborne Wiki. Not affiliated with FromSoftware or Sony Interactive Entertainment.",
+    "description": "Gothic action RPG from FromSoftware. Explore Yharnam, master trick weapons, and face the nightmares of The Old Hunters.",
+    "playGame": "Play on PlayStation",
+    "officialDiscord": "Bloodborne Reddit Community",
+    "officialYoutube": "PlayStation YouTube",
+    "vvBuilder": "Bloodborne Build Guides",
     "beginnerGuide": "Beginner Guide",
     "raceGuides": "Race Guides",
     "bossGuides": "Boss Guides",

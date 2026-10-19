@@ -23,12 +23,13 @@ export const siteConfig: SiteConfig = {
   shortName: "Bloodborne",
   logoText: "B",
   tagline: "Explore Yharnam, Master the Hunt",
-  description: "Explore Bloodborne with detailed boss guides, trick weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies.",
+  description: "Explore Bloodborne with boss guides, trick weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://bloodborne.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://bloodborne.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@bloodborne.top",
   gameUrl: "https://www.playstation.com/en-us/games/bloodborne/",
   heroVideoId: "Hdzpy5UXT0Y", // Bloodborne Gameplay Announce Trailer | Gamescom | PlayStation 4 Action RPG
   social: {
+    discord: "https://www.reddit.com/r/bloodborne/",
     youtube: "https://www.youtube.com/@PlayStation",
     twitter: "https://x.com/PlayStation",
   },
