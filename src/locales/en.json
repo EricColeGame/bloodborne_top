@@ -6,7 +6,17 @@
     "description": "Explore Bloodborne with boss guides, trick weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies.",
     "legalNotice": "Non-official fan wiki. Bloodborne is a trademark of Sony Interactive Entertainment. Made by hunters, for hunters."
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "combat": "Combat",
+    "items": "Items",
+    "characters": "Characters",
+    "maps": "Maps",
+    "lore": "Lore",
+    "community": "Community",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
   "home": {
     "meta": {
       "title": "Bloodborne Wiki - Bosses, Weapons & Walkthroughs",
@@ -447,7 +457,34 @@
       "secondary": "Play on PlayStation"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Bloodborne Guides",
+    "overviewDescription": "Beginner routes, walkthroughs, boss order, DLC access, endings, quests, and trophy guidance for Bloodborne."
+  },
+  "combat": {
+    "overviewTitle": "Bloodborne Combat",
+    "overviewDescription": "Weapon rankings, trick weapon guides, Arcane and Bloodtinge builds, visceral attacks, and combat fundamentals."
+  },
+  "items": {
+    "overviewTitle": "Bloodborne Items",
+    "overviewDescription": "Weapon lists, armor sets, Caryll runes, hunter tools, upgrade materials, and Blood Rock locations."
+  },
+  "characters": {
+    "overviewTitle": "Bloodborne Characters",
+    "overviewDescription": "Major characters, NPC questlines, Eileen the Crow, and Queen Yharnam."
+  },
+  "maps": {
+    "overviewTitle": "Bloodborne Maps",
+    "overviewDescription": "Yharnam routes, Forbidden Woods maps, locations, and interactive map guidance."
+  },
+  "lore": {
+    "overviewTitle": "Bloodborne Lore",
+    "overviewDescription": "Story explanations, Great Ones, hidden history, and the game's secret ending."
+  },
+  "community": {
+    "overviewTitle": "Bloodborne Community",
+    "overviewDescription": "Reddit resources, PC port discussion, seamless co-op, and PC settings guidance."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -478,7 +515,7 @@
     "officialYoutube": "PlayStation YouTube",
     "vvBuilder": "Bloodborne Build Guides",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
+    "raceGuides": "Character Guides",
     "bossGuides": "Boss Guides",
     "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",

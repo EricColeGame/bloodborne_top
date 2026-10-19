@@ -1,0 +1,108 @@
+export const metadata = {
+  title: "Ajustes de PC de Bloodborne: guía de emulación, resolución y optimización del rendimiento",
+  description: "Una guía práctica de los ajustes de PC de Bloodborne que cubre la configuración del emulador, el escalado de resolución, el caché de shaders y el frame pacing para cacerías más fluidas.",
+  category: "community",
+  date: "2026-10-20",
+}
+
+## Por qué los ajustes de PC de Bloodborne importan más que nunca
+
+Bloodborne nunca recibió un lanzamiento oficial en PC, y aun así miles de cazadores lo juegan en escritorio cada noche — y la diferencia entre un Yharnam nítido y estable y un desastre borroso y con tirones se reduce a un puñado de ajustes de PC de Bloodborne. Ya sea que busques 60 fps bloqueados o llevar el juego más allá de 4K, la configuración correcta te ahorra horas de frustración. Esta guía repasa los ajustes de PC de Bloodborne que realmente importan, desde la configuración del emulador hasta el caché de shaders, el frame pacing y los mods visuales.
+
+Una nota importante antes de empezar: todo lo que aparece aquí supone que estás ejecutando una copia del juego que posees legalmente, extraída de tu propio disco. La [página oficial de Bloodborne en PlayStation](https://www.playstation.com/en-us/games/bloodborne/) sigue siendo la única forma autorizada de comprar el juego, y los proyectos de emulación de la comunidad existen puramente porque no se ha anunciado ningún port nativo.
+
+La razón por la que los ajustes importan tanto es estructural. No estás alternando un menú creado por FromSoftware — estás superponiendo un emulador de la comunidad, parches gráficos y, a menudo, un preset de ReShade sobre un juego que nunca fue diseñado para ejecutarse en tu hardware. Cada capa tiene sus propios controles, y estos interactúan entre sí.
+
+## Los ajustes de PC de Bloodborne esenciales que debes cambiar primero
+
+La mayoría de los novatos abren el emulador, ven dos docenas de interruptores y empiezan a cambiar todo a la vez. Un mejor enfoque es cambiar una variable a la vez y probar en una zona exigente — las calles repletas de enemigos del Yharnam Central o la plaza del Distrito de la Catedral son pruebas de estrés ideales.
+
+Empieza con los ajustes de abajo. Ofrecen las mayores ganancias por minuto de ajuste, y son los que la comunidad discute con más frecuencia.
+
+| Ajuste | Qué controla | Punto de partida sugerido | Impacto en el rendimiento |
+|---|---|---|---|
+| Resolución de renderizado / escala interna | La cantidad de píxeles que el emulador realmente dibuja | 1440p, o 1.5x en un monitor de 1080p | Muy alto |
+| Límite de frames | Límite superior de frames renderizados | 60 fps | Moderado |
+| Caché de shaders / pipelines | Precompila los pipelines de GPU en disco | Activado para juego normal, desactivado solo para benchmarks | Alto en el primer inicio |
+| Backend del renderizador | Capa de traducción Vulkan u OpenGL | Vulkan en GPUs modernas | Alto |
+| V-Sync | Sincronización de presentación de frames | Desactivado en el emulador, activado a nivel de controlador | Bajo |
+| Desenfoque de movimiento | Borrosidad de cámara durante el movimiento | Desactivado | Bajo |
+| Anti-aliasing | Suavizado de bordes | TAA o FXAA, el que exponga tu build | Moderado |
+| Generación de frames | Inserta frames interpolados | Desactivado hasta que tus 60 fps base sean estables | Alto |
+
+Dos reglas prácticas de la experiencia de los jugadores: nunca actives la generación de frames sobre una tasa de frames inestable, y nunca juzgues el rendimiento durante tus primeros diez minutos en una zona nueva. Los tirones por compilación de shaders con un caché frío se ven exactamente igual que unos malos ajustes, y no lo son.
+
+## Cómo combinar resolución, tasa de frames y hardware
+
+La resolución es donde se va la mayor parte de tu presupuesto de GPU, y la dirección artística de Bloodborne lo recompensa — la mampostería gótica, los adoquines mojados y el detalle de las telas se benefician todos de un mayor número de píxeles. Los reportes de la comunidad sugieren que las tarjetas de gama media modernas pueden mantener 60 fps a 1440p con un escalado moderado, mientras que los sistemas de gama alta pueden acercarse a 4K.
+
+Las pruebas reportadas por Digital Foundry encontraron que una configuración en 4K mantuvo 60 fps durante aproximadamente el 99 por ciento de una ejecución medida con el caché de shaders desactivado, aunque los picos aislados de tiempo de frame seguían destacando. Ese "99 por ciento" es el titular honesto: casi bloqueado, no perfectamente bloqueado.
+
+| Nivel de hardware | Clase de GPU aproximada | Resolución de renderizado | Objetivo de frames | Notas |
+|---|---|---|---|---|
+| Entrada | Clase GTX 1660 / RX 580 | 1080p | 30–45 fps | Limita a 30 para mayor consistencia |
+| Media | Clase RTX 3060 / RX 6600 | 1080p–1440p | 60 fps | Usa un escalado suave en zonas concurridas |
+| Alta | Clase RTX 4070 / RX 7800 XT | 1440p–4K | 60 fps | Margen para ReShade |
+| Entusiasta | RTX 4080 y superiores | 4K+ | 60 fps+ | Rendimientos decrecientes por encima de 4K |
+
+Si no estás seguro de dónde quedarte, trabaja hacia abajo. Fija tu resolución objetivo, limita a 60 y baja la escala interna en incrementos del 10 por ciento hasta que los tiempos de frame se aplanen. Una imagen ligeramente más suave a unos sólidos 60 fps se siente drásticamente mejor que unos 45 nítidos como una navaja.
+
+## Eliminar los tirones: caché de shaders y frame pacing
+
+Los tirones en Bloodborne emulado casi siempre provienen de una de tres fuentes: compilación de shaders, frame pacing o saturación de hilos de CPU. Aprender a distinguirlos es la habilidad más útil que puedes desarrollar con los ajustes de PC de Bloodborne.
+
+Los tirones por compilación de shaders aparecen la primera vez que se renderiza un efecto nuevo — un farol se enciende, un jefe se transforma, una puerta de niebla se carga. Es un coste único por efecto por caché. Los tirones por frame pacing son rítmicos y constantes. La saturación de CPU se manifiesta como crujidos de audio y latencia de entrada en lugar de tirones visuales.
+
+| Síntoma | Causa probable | Solución |
+|---|---|---|
+| Tirón la primera vez que entras en una zona nueva | Compilación de shaders con caché frío | Activa el caché de pipelines y luego recorre la zona una vez |
+| Microtirones rítmicos constantes | Frame pacing o una tasa de frames sin límite | Limita a 60 y activa V-Sync a nivel de controlador |
+| Crujido de audio y entradas lentas | Hilos de CPU saturados | Baja la resolución, cierra aplicaciones en segundo plano |
+| Pantallas de carga largas entre zonas | Almacenamiento lento | Mueve el juego y el caché a un SSD |
+| Caída repentina en multitudes | Escena con muchas draw calls | Reduce la resolución interna un paso |
+
+Un truco útil de los reportes de la comunidad: haz una "vuelta de calentamiento". Carga una zona exigente, recórrela una vez a baja resolución para que los shaders se compilen de forma barata, luego sube tus ajustes y reinicia. La segunda pasada es drásticamente más fluida.
+
+## Mejoras visuales y una lista de configuración completa
+
+Una vez que el rendimiento es estable, los mods visuales son la recompensa. El paquete de la comunidad más popular combina un preset de ReShade con una guía de configuración completa que cubre la instalación del emulador, la habilitación del DLC, ajustes avanzados, generación de frames y mods de parámetros. La experiencia de los jugadores sugiere que estos presets se aplican mejor después — no antes — de tener una tasa de frames bloqueada, ya que ReShade añade su propio coste de GPU.
+
+| Tipo de mod | Qué hace | Nivel de riesgo |
+|---|---|---|
+| Preset de ReShade | Corrección de color, nitidez, oclusión ambiental | Bajo — fácil de desactivar |
+| Parche de 60 fps / tasa de frames | Desbloquea la tasa de frames por encima del límite original | Bajo–moderado |
+| Habilitación del DLC | Da acceso al contenido de The Old Hunters | Moderado — haz copia de seguridad de las partidas |
+| Mods de parámetros | Altera valores de juego, armas, dificultad | Alto — puede corromper partidas |
+| Reemplazos de texturas | Recursos de mayor resolución | Moderado — consume mucha VRAM |
+
+Haz siempre una copia de seguridad de tu archivo de partida antes de tocar mods de parámetros. Una partida corrupta en un juego tan largo es una pérdida genuinamente dolorosa.
+
+### Lista de configuración paso a paso de los ajustes de PC de Bloodborne
+
+| Paso | Acción | Tiempo |
+|---|---|---|
+| 1 | Verifica el volcado de tu juego e instala el emulador | 15 min |
+| 2 | Aplica los parches necesarios y confirma que el juego arranca | 10 min |
+| 3 | Configura el renderizador en Vulkan, limita a 60 fps | 5 min |
+| 4 | Haz la vuelta de calentamiento a baja resolución | 10 min |
+| 5 | Sube la resolución interna hasta que los tiempos de frame se aplanen | 15 min |
+| 6 | Añade ReShade y vuelve a probar en una zona concurrida | 10 min |
+| 7 | Habilita el contenido del DLC y verifica tu partida | 10 min |
+
+Mantén un registro escrito de cada cambio. Cuando algo se rompa tres ajustes después, querrás saber exactamente qué tocaste.
+
+## Preguntas frecuentes
+
+**¿Necesito un port oficial en PC para usar estos ajustes de PC de Bloodborne?**
+No — no existe una versión oficial en PC. Estos ajustes se aplican a la emulación de la comunidad ejecutando una copia del juego que posees. Si alguna vez se anuncia un port oficial, la mayor parte de esta orientación sobre frame pacing y caché de shaders seguirá siendo útil.
+
+**¿Cuál es el ajuste individual más impactante que debo cambiar primero?**
+La resolución interna de renderizado. Tiene el mayor efecto en la tasa de frames y es la más fácil de ajustar de forma incremental. Limita tu tasa de frames a 60 inmediatamente después y luego trabaja en el caché de shaders.
+
+**¿Por qué el juego da tirones durante los primeros minutos y luego se suaviza?**
+Eso es la compilación de shaders. Tu GPU está construyendo pipelines para efectos que nunca antes había renderizado. Activa el caché persistente de pipelines para que el trabajo se guarde en disco y se reutilice en sesiones posteriores.
+
+**¿Puedo ejecutar 4K a 60 fps con los ajustes de PC de Bloodborne en una tarjeta de gama media?**
+Normalmente no de forma cómoda. Las pruebas de la comunidad muestran que 4K/60 es alcanzable en hardware de gama alta, pero las tarjetas de gama media se benefician más de 1440p con una tasa de frames bloqueada. La consistencia supera al número bruto de píxeles en un juego tan exigente.
+
+La versión corta: limita tus frames, calienta tus shaders, sube la resolución al final y solo entonces empieza a superponer mods visuales. Hazlo, y Yharnam por fin se verá como lo recuerdas.

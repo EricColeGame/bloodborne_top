@@ -1,0 +1,108 @@
+export const metadata = {
+  title: "Bloodborne PC Settings: Emulation, Resolution, and Performance Tuning Guide",
+  description: "A practical Bloodborne PC settings guide covering emulator configuration, resolution scaling, shader caching, and frame pacing for smoother hunts.",
+  category: "community",
+  date: "2026-10-20",
+}
+
+## Why Bloodborne PC Settings Matter More Than Ever
+
+Bloodborne never received an official PC release, yet thousands of hunters play it on desktop every night — and the gap between a sharp, stable Yharnam and a blurry, stuttering mess comes down to a handful of Bloodborne PC settings. Whether you are chasing a locked 60 fps or pushing the game beyond 4K, the right configuration saves hours of frustration. This guide walks through the Bloodborne PC settings that actually matter, from emulator configuration to shader caching, frame pacing, and visual mods.
+
+One important note before you start: everything here assumes you are running a copy of the game you legally own, dumped from your own disc. The [official Bloodborne page on PlayStation](https://www.playstation.com/en-us/games/bloodborne/) remains the only sanctioned way to buy the game, and community emulation projects exist purely because no native port has been announced.
+
+The reason settings matter so much is structural. You are not toggling a menu built by FromSoftware — you are layering a community emulator, graphics patches, and often a ReShade preset on top of a game that was never designed to run on your hardware. Each layer has its own knobs, and they interact.
+
+## The Core Bloodborne PC Settings to Change First
+
+Most newcomers open the emulator, see two dozen toggles, and start flipping everything at once. A better approach is to change one variable at a time and test in a demanding area — Central Yharnam's mob-packed streets or the Cathedral Ward plaza are ideal stress tests.
+
+Start with the settings below. They deliver the largest gains per minute of tweaking, and they are the ones the community discusses most often.
+
+| Setting | What it controls | Suggested starting point | Performance impact |
+|---|---|---|---|
+| Render resolution / internal scale | The pixel count the emulator actually draws | 1440p, or 1.5x on a 1080p monitor | Very high |
+| Frame rate cap | Upper limit on frames rendered | 60 fps | Moderate |
+| Shader / pipeline cache | Pre-compiles GPU pipelines to disk | On for normal play, off only for benchmarking | High on first launch |
+| Renderer backend | Vulkan or OpenGL translation layer | Vulkan on modern GPUs | High |
+| V-Sync | Frame presentation sync | Off in-emulator, on at driver level | Low |
+| Motion blur | Camera smear during movement | Off | Low |
+| Anti-aliasing | Edge smoothing | TAA or FXAA, whichever your build exposes | Moderate |
+| Frame generation | Inserts interpolated frames | Off until your base 60 fps is stable | High |
+
+Two rules of thumb from player experience: never enable frame generation on top of an unstable frame rate, and never judge performance during your first ten minutes in a new area. Shader compilation hitches on a cold cache look exactly like bad settings, and they are not.
+
+## Matching Resolution, Frame Rate, and Hardware
+
+Resolution is where most of your GPU budget goes, and Bloodborne's art direction rewards it — the gothic masonry, wet cobblestones, and fabric detail all benefit from a higher pixel count. Community reports suggest that modern mid-range cards can hold 60 fps at 1440p with moderate upscaling, while high-end systems can push toward 4K.
+
+Testing reported by Digital Foundry found that a 4K configuration held 60 fps for roughly 99 percent of a measured run with shader caching disabled, though isolated frame-time spikes still stood out. That "99 percent" is the honest headline: near-locked, not perfectly locked.
+
+| Hardware tier | Rough GPU class | Render resolution | Frame target | Notes |
+|---|---|---|---|---|
+| Entry | GTX 1660 / RX 580 class | 1080p | 30–45 fps | Cap at 30 for consistency |
+| Mid | RTX 3060 / RX 6600 class | 1080p–1440p | 60 fps | Use mild upscaling in busy areas |
+| High | RTX 4070 / RX 7800 XT class | 1440p–4K | 60 fps | Headroom for ReShade |
+| Enthusiast | RTX 4080 and above | 4K+ | 60 fps+ | Diminishing returns past 4K |
+
+If you are unsure where to land, work downward. Set your target resolution, cap at 60, and drop the internal scale by 10 percent increments until frame times flatten. A slightly softer image at a rock-solid 60 fps feels dramatically better than a razor-sharp 45.
+
+## Killing Stutter: Shader Caching and Frame Pacing
+
+Stutter in emulated Bloodborne almost always comes from one of three sources: shader compilation, frame pacing, or CPU thread saturation. Learning to tell them apart is the single most useful Bloodborne PC settings skill you can develop.
+
+Shader compilation stutter appears the first time a new effect renders — a lantern ignites, a boss transforms, a fog gate loads. It is a one-time cost per effect per cache. Frame pacing stutter is rhythmic and constant. CPU saturation shows up as audio crackle and input lag rather than visual hitching.
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| Hitch the first time you enter a new area | Shader compilation on a cold cache | Enable pipeline caching, then replay the area once |
+| Constant rhythmic micro-stutter | Frame pacing or an uncapped frame rate | Cap to 60 and enable driver-level V-Sync |
+| Audio crackle and sluggish inputs | CPU threads saturated | Lower resolution, close background apps |
+| Long load screens between zones | Slow storage | Move the game and cache to an SSD |
+| Sudden drop in busy crowds | Draw-call heavy scene | Reduce internal resolution by one step |
+
+A useful trick from community reports: do a "warm-up lap." Load into a demanding zone, walk through it once at low resolution so shaders compile cheaply, then raise your settings and restart. The second pass is dramatically smoother.
+
+## Visual Upgrades and a Full Setup Checklist
+
+Once performance is stable, visual mods are the reward. The most popular community package pairs a ReShade preset with a comprehensive setup guide covering emulator installation, DLC enabling, advanced settings, frame generation, and parameter mods. Player experience suggests these presets are best applied after — not before — you have a locked frame rate, since ReShade adds its own GPU cost.
+
+| Mod type | What it does | Risk level |
+|---|---|---|
+| ReShade preset | Color grading, sharpening, ambient occlusion | Low — easy to toggle off |
+| 60 fps / frame-rate patch | Unlocks the frame rate above the original cap | Low–moderate |
+| DLC enabling | Grants access to The Old Hunters content | Moderate — back up saves |
+| Param mods | Alters gameplay values, weapons, difficulty | High — can break saves |
+| Texture replacements | Higher-resolution assets | Moderate — VRAM heavy |
+
+Always back up your save file before touching parameter mods. A corrupted save in a game this long is a genuinely painful loss.
+
+### Step-by-Step Bloodborne PC Settings Checklist
+
+| Step | Action | Time |
+|---|---|---|
+| 1 | Verify your game dump and install the emulator | 15 min |
+| 2 | Apply required patches and confirm the game boots | 10 min |
+| 3 | Set renderer to Vulkan, cap at 60 fps | 5 min |
+| 4 | Run the warm-up lap at low resolution | 10 min |
+| 5 | Raise internal resolution until frame times flatten | 15 min |
+| 6 | Add ReShade and re-test in a busy zone | 10 min |
+| 7 | Enable DLC content and verify your save | 10 min |
+
+Keep a written record of each change. When something breaks three settings later, you will want to know exactly what you touched.
+
+## FAQ
+
+**Do I need an official PC port to use these Bloodborne PC settings?**
+No — there is no official PC version. These settings apply to community emulation running a copy of the game you own. If an official port is ever announced, most of this guidance about frame pacing and shader caching will still be useful.
+
+**What is the single most impactful setting to change first?**
+Internal render resolution. It has the largest effect on frame rate and is the easiest to tune incrementally. Cap your frame rate at 60 immediately after, then work on shader caching.
+
+**Why does the game stutter for the first few minutes and then smooth out?**
+That is shader compilation. Your GPU is building pipelines for effects it has never rendered before. Enable persistent pipeline caching so the work is saved to disk and reused on later sessions.
+
+**Can I run 4K at 60 fps with Bloodborne PC settings on a mid-range card?**
+Usually not comfortably. Community testing shows 4K/60 is achievable on high-end hardware, but mid-range cards are better served by 1440p with a locked frame rate. Consistency beats raw pixel count in a game this punishing.
+
+The short version: cap your frames, warm your shaders, raise resolution last, and only then start layering visual mods. Do that, and Yharnam finally looks the way you remember it.
