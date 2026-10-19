@@ -1,0 +1,14 @@
+{
+  "name": "bloodborne-top",
+  "compatibility_date": "2024-09-01",
+  "workers_dev": false,
+  "assets": {
+    "directory": "./out"
+  },
+  "routes": [
+    {
+      "pattern": "bloodborne.top",
+      "custom_domain": true
+    }
+  ]
+}
