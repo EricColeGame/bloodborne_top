@@ -33,6 +33,6 @@ export const siteConfig: SiteConfig = {
     youtube: "https://www.youtube.com/@PlayStation",
     twitter: "https://x.com/PlayStation",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "ja", "es", "ko"],
   defaultLocale: "en",
 };

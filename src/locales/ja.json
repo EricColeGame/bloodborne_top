@@ -1,1 +1,527 @@
-{}
+{
+  "site": {
+    "name": "ブラッドボーン Wiki",
+    "shortName": "ブラッドボーン",
+    "tagline": "ヤーナムを探索し、狩りを極めよう",
+    "description": "ボス攻略、仕掛け武器のビルド、攻略チャート、The Old Huntersのヒント、秘密、世界観解説、実戦的な戦闘戦略でBloodborneを探索しましょう。",
+    "legalNotice": "非公式ファンWikiです。BloodborneはSony Interactive Entertainmentの商標です。狩人による、狩人のためのWikiです。"
+  },
+  "nav": {
+    "guide": "ガイド",
+    "combat": "戦闘",
+    "items": "アイテム",
+    "characters": "キャラクター",
+    "maps": "マップ",
+    "lore": "世界観",
+    "community": "コミュニティ",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替える"
+  },
+  "home": {
+    "meta": {
+      "title": "ブラッドボーン Wiki - ボス・武器・攻略チャート",
+      "description": "ボス攻略、武器ビルド、攻略チャート、The Old Huntersのヒント、秘密、世界観解説、実戦的な戦闘戦略でBloodborneを探索しましょう。"
+    },
+    "hero": {
+      "eyebrow": "ゴシック・アクションRPG",
+      "title": "ブラッドボーン Wiki",
+      "description": "ヤーナムを探索し、仕掛け武器と銃を使いこなし、強敵ボスを倒し、隠された世界観を見つけ、BloodborneとThe Old Huntersの秘密を解き明かしましょう。",
+      "stats": [
+        "発売日：2015年3月24日",
+        "オリジナル機種：PS4",
+        "主要DLC：The Old Hunters",
+        "ジャンル：アクションRPG"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "ボス攻略",
+      "tertiaryCta": "武器とビルド",
+      "videoLabel": "公式メディア"
+    },
+    "updates": {
+      "title": "最新更新",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて見る"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "あなたのBloodborneの旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "出自、初期武器、リカバリー、銃パリィ、血の瓶、そしてヤーナム市街を進む最も安全なルートを学びましょう。"
+        },
+        {
+          "number": "2",
+          "title": "最強ビルド",
+          "description": "筋力、技量、血質、神秘の道を、明確なステータス目標と序盤の武器構成とともに選びましょう。"
+        },
+        {
+          "number": "3",
+          "title": "ボスガイド",
+          "description": "ガスコイン神父からメルゴーの乳母まで、すべての必須戦に順番と戦術をもって備えましょう。"
+        },
+        {
+          "number": "4",
+          "title": "武器ティアリスト",
+          "description": "仕掛け武器と銃を、ダメージ、モーション、補正、初心者向けの戦い方で比較します。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "注目のBloodborneガイド",
+      "quickLinks": [
+        "初心者ガイド",
+        "武器ティアリスト",
+        "ボス順序",
+        "最強ビルド"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "出自、初期武器、戦闘のタイミング、血の遺志、最初のヤーナムのボスを学びましょう。",
+          "href": "/guide/bloodborne-beginner-guide"
+        },
+        {
+          "badge": "武器",
+          "title": "武器ティアリスト",
+          "description": "主要な仕掛け武器をSからCまで、ビルドの注意点と強化優先度とともにランク付けします。",
+          "href": "/combat/bloodborne-weapon-tier-list"
+        },
+        {
+          "badge": "ボス",
+          "title": "ボス順序",
+          "description": "本編の全17ボスを進行順に並べ、必須戦と任意戦を分けて解説します。",
+          "href": "/guide/bloodborne-bosses-in-order"
+        },
+        {
+          "badge": "ビルド",
+          "title": "最強ビルド",
+          "description": "10種類のBloodborneビルド向けに、ステータス目標、代表武器、レベル120の配分を紹介します。",
+          "href": "/combat/bloodborne-best-builds"
+        },
+        {
+          "badge": "DLC",
+          "title": "The Old Huntersへのアクセス",
+          "description": "血に酔いしれた狩人の目とアメンドーズのつかみで拡張版を解禁しましょう。",
+          "href": "/guide/bloodborne-dlc-how-to-access"
+        },
+        {
+          "badge": "アイテム",
+          "title": "血の岩の場所",
+          "description": "確定で手に入る+10強化素材、啓蒙ショップの在庫、聖杯ダンジョンの入手先を探しましょう。",
+          "href": "/items/bloodborne-blood-rock"
+        },
+        {
+          "badge": "ルート",
+          "title": "エリア順序",
+          "description": "ヤーナムの主要ルートをたどり、任意エリアを最も役立つ位置に組み込みましょう。",
+          "href": "/guide/bloodborne-area-order"
+        },
+        {
+          "badge": "エンディング",
+          "title": "3つのエンディング",
+          "description": "ゲールマンの選択とへその緒が、Bloodborneのすべての結末をどう解き放つかを確認しましょう。",
+          "href": "/guide/bloodborne-endings-explained"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Bloodborneとは？",
+      "paragraphs": [
+        "BloodborneはFromSoftwareが開発し、宮崎英高がディレクションを担当したゴシック・アクションRPGです。2015年3月24日にPlayStation 4向けに発売され、獣の疫病に蝕まれ、癒しの教会の血の施しへの執着に形作られた都市ヤーナムで、プレイヤーは狩人となります。",
+        "戦闘は攻撃性を報います。仕掛け武器はコンボの途中で変形し、銃は内臓攻撃の隙を作るパリィを生み、リカバリーシステムは反撃で失った体力を取り戻せます。入り組んだ都市、任意の聖杯ダンジョン、謎めいたNPCのクエスト、そしてThe Old Hunters拡張版が、繰り返しのプレイと深い世界観の追跡を支えています。"
+      ],
+      "stats": [
+        {
+          "label": "開発",
+          "value": "FromSoftware"
+        },
+        {
+          "label": "販売",
+          "value": "Sony Interactive Entertainment"
+        },
+        {
+          "label": "発売",
+          "value": "2015年3月24日"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "PlayStation 4"
+        },
+        {
+          "label": "ディレクター",
+          "value": "宮崎英高"
+        },
+        {
+          "label": "拡張版",
+          "value": "The Old Hunters"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Bloodborne Wikiを探索",
+      "description": "8つの実践ガイドで、序盤の過ごし方、武器選び、ボス順序、ビルド計画、世界進行、聖杯ダンジョン、The Old Hunters、そして本作のエンディングを網羅します。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Bloodborne初心者ガイド",
+          "description": "キャラクター作成、初期武器、戦闘のタイミング、回復、レベル上げ、狩人の夢、ヤーナム市街を進む実践ルートを学びましょう。",
+          "href": "/guide/bloodborne-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "初回は孤独な生存者か凡庸を選ぶと安全です。その後、狩人の夢で近接武器と銃を装備しましょう。"
+            },
+            {
+              "label": "2",
+              "detail": "バランスの良いダメージならノコギリ鉈、群れの制御なら狩人の斧、リーチなら仕込み杖を選びましょう。"
+            },
+            {
+              "label": "3",
+              "detail": "攻撃を受けた後に打ち返してリカバリーを練習し、クイックステップの無敵時間で攻撃をくぐり抜けましょう。"
+            },
+            {
+              "label": "4",
+              "detail": "敵の攻撃が当たる直前に撃ってパリィし、よろけに高ダメージの内臓攻撃を決めましょう。"
+            },
+            {
+              "label": "5",
+              "detail": "ボスの前で人形に血の遺志を使い、工房で血石の欠片を使って武器を強化しましょう。"
+            },
+            {
+              "label": "6",
+              "detail": "すべてのランプを灯し、ショートカットの門を開け、ガスコイン神父に挑む前にヤーナム市街の敵を一人ずつ引き寄せましょう。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Bloodborne武器ティアリスト",
+          "description": "仕掛け武器と銃を、ダメージ、汎用性、スタミナ消費、補正、筋力・技量・血質・神秘ビルドとの相性でランク付けします。",
+          "href": "/combat/bloodborne-weapon-tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "ノコギリ鉈、ノコギリ槍、ルートヴィヒの聖剣、回転ノコギリ、聖剣月光、落葉、ビーストハンター・サイフ、千景は、最高クラスのダメージと柔軟なモーションを両立します。"
+            },
+            {
+              "label": "A",
+              "detail": "狩人の斧、キルクハンマー、慈悲の刃、葬送の刃、教会のピック、サイモンの弓刃、ブラッドレター、トニトルス、コスの寄生虫、ロガリオスの車輪は、一つの弱点と引き換えに高い汎用性を得ます。"
+            },
+            {
+              "label": "B",
+              "detail": "仕込み杖、杭打ち機、ライフルスピア、レイテルパラッシュ、獣切り、爆発ハンマー、アメンドーズの腕、獣の爪は、専門特化ビルドに報います。"
+            },
+            {
+              "label": "C",
+              "detail": "グラティアの拳やビルド外の武器は、ダメージか汎用性が専用構成に劣るためここに位置します。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Bloodborneボスガイド",
+          "description": "必須戦と任意戦を、進行順、危険な攻撃、弱点、そして主要な戦いごとの実践戦術とともに準備しましょう。",
+          "href": "/guide/bloodborne-bosses-in-order",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "聖職者",
+              "detail": "大橋にいる任意の最初のボスです。その徽章で浴場の使者の店が拡張されます。"
+            },
+            {
+              "label": "ガスコイン",
+              "detail": "最初の必須の壁です。狩人としての攻撃をパリィし、慌ててローリングしないようにしましょう。"
+            },
+            {
+              "label": "アメリア",
+              "detail": "大聖堂地区の必須ボスです。麻痺の霧を使って回復を止めましょう。"
+            },
+            {
+              "label": "影",
+              "detail": "禁断の森で3体と戦う必須戦です。群れを制御し、遠距離の脅威から倒しましょう。"
+            },
+            {
+              "label": "ロマ",
+              "detail": "ビルゲンワースの必須ボスです。取り巻きを処理し、神秘の飛び道具に注意しましょう。"
+            },
+            {
+              "label": "乳母",
+              "detail": "分身攻撃を使うメンシスの悪夢の必須ボスです。動き続け、安全な隙を確実に攻撃しましょう。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Bloodborneビルドとステータス",
+          "description": "能力値のソフトキャップ、武器補正、筋力・技量・血質・神秘・クオリティビルドのレベル120配分を理解しましょう。",
+          "href": "/combat/bloodborne-best-builds",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "体力",
+              "detail": "序盤に30、終盤に50を目指しましょう。体力は新米狩人にとって最も寛容な投資です。"
+            },
+            {
+              "label": "耐久",
+              "detail": "収穫逓減の前に、追加の攻撃と回避のために耐久20〜30を目標にしましょう。"
+            },
+            {
+              "label": "筋力",
+              "detail": "回転ノコギリやキルクハンマーのような重量武器なら筋力25か50で止めましょう。"
+            },
+            {
+              "label": "技量",
+              "detail": "技量は速い武器のダメージと内臓攻撃を高めます。25か50が重要な節目です。"
+            },
+            {
+              "label": "血質",
+              "detail": "血質50は千景、サイモンの弓刃、ブラッドレター、銃中心ビルドを支えます。"
+            },
+            {
+              "label": "神秘",
+              "detail": "神秘50は狩人用具と属性武器を強化しますが、物理能力値より遅れて機能し始めます。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Bloodborne攻略チャートとエリアガイド",
+          "description": "ヤーナム市街からメンシスの悪夢まで、ショートカット、任意の寄り道、進行チェックポイントとともに相互接続したルートをたどりましょう。",
+          "href": "/guide/bloodborne-area-order",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "市街",
+              "detail": "ランプのショートカットを開け、任意の聖職者の獣を検討し、ガスコイン神父を倒しましょう。"
+            },
+            {
+              "label": "大聖堂",
+              "detail": "大聖堂地区に到達し、オエドンの礼拝堂の住人と話し、アメリア主教を倒しましょう。"
+            },
+            {
+              "label": "旧市街",
+              "detail": "旧ヤーナムは任意ですが、プトゥメルの聖杯と大聖堂地区の門への無料ルートが得られます。"
+            },
+            {
+              "label": "禁断",
+              "detail": "禁断の森のルートをヤーナムの影まで進み、ショートカットの門を早めに開けましょう。"
+            },
+            {
+              "label": "ビルゲン",
+              "detail": "ビルゲンワースでロマを倒し、血の月を引き起こして終盤への変化を解禁しましょう。"
+            },
+            {
+              "label": "メンシス",
+              "detail": "メンシスの悪夢を終わらせ、最後の選択のために狩人の夢へ戻りましょう。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Bloodborne聖杯ダンジョンガイド",
+          "description": "聖杯の入手、儀式素材、ダンジョンの階層、深度による難易度、ルート聖杯、任意ダンジョンを価値あるものにする報酬を理解しましょう。",
+          "href": "/items/bloodborne-blood-rock",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "プトゥメル",
+              "detail": "最初のプトゥメルの聖杯は血に飢えた獣から得られ、主要なダンジョン系統を開きます。"
+            },
+            {
+              "label": "ローラン",
+              "detail": "病めるローランは独自のボス、素材、高階層の戦利品を得るためのルート聖杯を追加します。"
+            },
+            {
+              "label": "イズ",
+              "detail": "イズのダンジョンはエブリエタスの先にあり、深度5の報酬への別ルートを提供します。"
+            },
+            {
+              "label": "深度5",
+              "detail": "深度が難易度を決めます。深度5のルート聖杯は最強の宝石、ルーン、血の岩の可能性を生みます。"
+            },
+            {
+              "label": "儀式",
+              "detail": "悪臭、腐敗、呪いの儀式は危険を高め、生成される報酬の品質を向上させます。"
+            },
+            {
+              "label": "血の岩",
+              "detail": "プトゥメル、ローラン、イズの聖杯の種類ごとに血の岩が1個入手でき、深度5のボスからは稀にドロップします。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Bloodborne DLC The Old Huntersガイド",
+          "description": "拡張版を解禁し、難易度の上昇に備え、狩人の悪夢、研究棟、星見の時計塔、漁村とそのボスたちを攻略しましょう。",
+          "href": "/guide/bloodborne-dlc-how-to-access",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "アクセス",
+              "detail": "アメリア主教を倒し、頭蓋骨に触れ、狩人の夢で血に酔いしれた狩人の目を回収し、オエドンの礼拝堂の外でアメンドーズにつかまりましょう。"
+            },
+            {
+              "label": "エリア",
+              "detail": "拡張版は狩人の悪夢、研究棟、星見の時計塔、漁村を進みます。"
+            },
+            {
+              "label": "武器",
+              "detail": "拡張版では開始エリアと後のエリアに多数の仕掛け武器が追加され、本編へ持ち帰れます。"
+            },
+            {
+              "label": "マリア",
+              "detail": "レディ・マリアは速くパリィ可能な決闘で、慌てたローリングと欲張った回復を罰します。"
+            },
+            {
+              "label": "コス",
+              "detail": "コスの孤児はDLC最後のボスであり、拡張版で最も難しい戦いです。"
+            },
+            {
+              "label": "ローレンス",
+              "detail": "最初の主教ローレンスは、大聖堂に隠された任意の炎中心の戦いです。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Bloodborneエンディングと秘密ガイド",
+          "description": "3つのエンディング、へその緒の条件、ゲールマンの最後の選択、月の存在、見逃しやすいクエストの詳細を比較しましょう。",
+          "href": "/guide/bloodborne-endings-explained",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "夜明け",
+              "detail": "メルゴーの乳母の後でゲールマンの申し出を受け入れ、別のボス戦なしでヤーナムの夜明けに到達しましょう。"
+            },
+            {
+              "label": "願い",
+              "detail": "ゲールマンを拒否して倒し、狩人の夢でその座を継ぎ、願いを叶えましょう。"
+            },
+            {
+              "label": "幼年期",
+              "detail": "へその緒の三分の一を3個使用し、ゲールマンを拒否し、月の存在を倒して幼年期の始まりに到達しましょう。"
+            },
+            {
+              "label": "緒",
+              "detail": "1周のプレイでへその緒は4本存在しますが、最後の選択前に使う必要があるのは3本だけです。"
+            },
+            {
+              "label": "ゲールマン",
+              "detail": "速い大鎌の攻撃は回復と慌てたローリングを罰します。弧をくぐって回避し、可能な時はパリィしましょう。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Bloodborneよくある質問",
+      "description": "Bloodborneの戦闘、レベル上げ、DLCへのアクセス、死亡時のペナルティ、対応機種について端的に答えます。",
+      "items": [
+        {
+          "question": "Bloodborneとはどんなゲームですか？",
+          "answer": "BloodborneはFromSoftwareが開発し、2015年3月24日にPlayStation 4向けに発売したゴシック・アクションRPGです。プレイヤーは疫病に襲われた都市ヤーナムの狩人となり、変形する仕掛け武器と銃を使って獣、上位者、他の狩人と戦います。"
+        },
+        {
+          "question": "Bloodborneの戦闘はどのように機能しますか？",
+          "answer": "Bloodborneは制御された攻撃性を報います。リカバリーは攻撃を受けた後に打ち返して直近に失った体力を回復でき、銃パリィは内臓攻撃の隙を作り、クイックステップはタイミングよく使えば無敵時間を得られます。"
+        },
+        {
+          "question": "Bloodborneでレベルを上げるには？",
+          "answer": "血の遺志はBloodborneで通貨と経験値の両方の役割を果たします。狩人の夢にいる人形に使うと、体力、耐久、筋力、技量、血質、神秘のいずれかを上げられます。"
+        },
+        {
+          "question": "BloodborneでThe Old Huntersにアクセスするには？",
+          "answer": "Bloodborneでアメリア主教を倒し、彼女の戦場の奥にある頭蓋骨に触れ、狩人の夢で血に酔いしれた狩人の目を回収します。その後、オエドンの礼拝堂の外にある大聖堂地区の広場に立ち、アメンドーズにつかまりましょう。"
+        },
+        {
+          "question": "Bloodborneで死ぬとどうなりますか？",
+          "answer": "Bloodborneで死ぬと、所持していた血の遺志が死亡地点に落ちるか、近くの敵に移ります。再び死ぬ前に回収してください。回収せずに二度目に死ぬと、その蓄積は完全に失われます。"
+        },
+        {
+          "question": "Bloodborneの公式PC版はありますか？",
+          "answer": "Sonyが販売する公式PC版Bloodborneは存在しません。本作はPlayStation 4用タイトルのままで、PlayStation 5では後方互換でプレイできます。コミュニティによるエミュレーションやローダープロジェクトには自身のゲームコピーが必要です。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "狩りを極める準備はできましたか？",
+      "description": "ヤーナム市街での最初の一歩からThe Old Huntersの悪夢まで、私たちのコミュニティWikiはボス、仕掛け武器、ビルド、隠された世界観を扱います。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "PlayStationでプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Bloodborneガイド",
+    "overviewDescription": "初心者ルート、攻略チャート、ボス順序、DLCアクセス、エンディング、クエスト、トロフィー指南をまとめたBloodborneガイドです。"
+  },
+  "combat": {
+    "overviewTitle": "Bloodborne戦闘",
+    "overviewDescription": "武器ランキング、仕掛け武器ガイド、神秘と血質のビルド、内臓攻撃、戦闘の基礎を解説します。"
+  },
+  "items": {
+    "overviewTitle": "Bloodborneアイテム",
+    "overviewDescription": "武器一覧、防具セット、カリルのルーン、狩人用具、強化素材、血の岩の場所を紹介します。"
+  },
+  "characters": {
+    "overviewTitle": "Bloodborneキャラクター",
+    "overviewDescription": "主要キャラクター、NPCクエスト、カラスのアイリーン、ヤーナムの女王を解説します。"
+  },
+  "maps": {
+    "overviewTitle": "Bloodborneマップ",
+    "overviewDescription": "ヤーナムのルート、禁断の森のマップ、各地点、インタラクティブマップの案内を掲載します。"
+  },
+  "lore": {
+    "overviewTitle": "Bloodborne世界観",
+    "overviewDescription": "物語の解説、上位者、隠された歴史、本作の秘密のエンディングを扱います。"
+  },
+  "community": {
+    "overviewTitle": "Bloodborneコミュニティ",
+    "overviewDescription": "Redditの情報、PC版の議論、シームレス協力プレイ、PC設定の案内をまとめます。"
+  },
+  "shared": {
+    "wikiNavigation": "Wikiナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新日",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "PlayStationでプレイ",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "助けが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "利用できるガイドはまだありません。近日公開予定です。",
+    "notFoundTitle": "ページが見つかりません",
+    "notFoundDescription": "お探しのガイドは移動したか、まだ追加されていない可能性があります。",
+    "browseBossGuides": "ボスガイドを見る"
+  },
+  "footer": {
+    "aboutTitle": "ブラッドボーン Wiki",
+    "about": "ブラッドボーン Wikiは、ボス戦略、仕掛け武器、ビルド、The Old Hunters DLC、隠された世界観、そして新米から熟練まで役立つゲーム知識を扱う、ファン制作の独立系ガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的情報",
+    "copyright": "2026 ブラッドボーン Wiki。FromSoftwareおよびSony Interactive Entertainmentとは提携していません。",
+    "description": "FromSoftwareによるゴシック・アクションRPG。ヤーナムを探索し、仕掛け武器を使いこなし、The Old Huntersの悪夢に立ち向かいましょう。",
+    "playGame": "PlayStationでプレイ",
+    "officialDiscord": "Bloodborne Redditコミュニティ",
+    "officialYoutube": "PlayStation YouTube",
+    "vvBuilder": "Bloodborneビルドガイド",
+    "beginnerGuide": "初心者ガイド",
+    "raceGuides": "キャラクターガイド",
+    "bossGuides": "ボスガイド",
+    "buildGuide": "ビルドガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}

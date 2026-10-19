@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter } from "next/font/google";
 import { hasLocale } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
@@ -22,12 +22,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const image = `${siteUrl}/images/hero.webp`;
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
+  const meta = await getTranslations({ locale, namespace: "home.meta" });
+  const title = meta("title");
+  const description = meta("description");
   return {
     metadataBase: new URL(siteUrl),
     applicationName: siteConfig.name,
     manifest: "/manifest.json",
-    title: { default: "Bloodborne Wiki", template: "%s" },
-    description: "Explore Bloodborne with boss guides, weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies.",
+    title: { default: title, template: "%s" },
+    description,
     keywords: ["Bloodborne", "Bloodborne Wiki", "PS4", "boss guide", "trick weapons", "walkthrough", "builds", "The Old Hunters", "lore"],
     icons: {
       icon: [
@@ -39,8 +42,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       shortcut: "/favicon.ico",
     },
     appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Bloodborne Wiki" },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title: "Bloodborne Wiki - Bosses, Weapons & Walkthroughs", description: "Explore Bloodborne with boss guides, weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, lore explanations, and practical combat strategies.", images: [{ url: image, width: 1920, height: 1080, alt: "Bloodborne key art" }] },
-    twitter: { card: "summary_large_image", title: "Bloodborne Wiki - Bosses, Weapons & Walkthroughs", description: "Boss guides, trick weapon builds, walkthroughs, The Old Hunters DLC tips, secrets, and lore for Bloodborne.", images: [image] },
+    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title, description, images: [{ url: image, width: 1920, height: 1080, alt: "Bloodborne key art" }] },
+    twitter: { card: "summary_large_image", title, description, images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }

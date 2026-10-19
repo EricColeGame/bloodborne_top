@@ -1,1 +1,527 @@
-{}
+{
+  "site": {
+    "name": "Wiki de Bloodborne",
+    "shortName": "Bloodborne",
+    "tagline": "Explora Yharnam, domina la caza",
+    "description": "Explora Bloodborne con guías de jefes, builds de armas trucadas, recorridos, consejos de The Old Hunters, secretos, explicaciones del lore y estrategias de combate prácticas.",
+    "legalNotice": "Wiki de fans no oficial. Bloodborne es una marca registrada de Sony Interactive Entertainment. Hecha por cazadores, para cazadores."
+  },
+  "nav": {
+    "guide": "Guía",
+    "combat": "Combate",
+    "items": "Objetos",
+    "characters": "Personajes",
+    "maps": "Mapas",
+    "lore": "Lore",
+    "community": "Comunidad",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "Wiki de Bloodborne: jefes, armas y recorridos",
+      "description": "Explora Bloodborne con guías de jefes, builds de armas, recorridos, consejos de The Old Hunters, secretos, explicaciones del lore y estrategias de combate prácticas."
+    },
+    "hero": {
+      "eyebrow": "RPG de acción gótico",
+      "title": "Wiki de Bloodborne",
+      "description": "Explora Yharnam, domina las armas trucadas y las armas de fuego, derrota a jefes desafiantes, descubre el lore oculto y desvela los secretos de Bloodborne y The Old Hunters.",
+      "stats": [
+        "Fecha de lanzamiento: 24 de marzo de 2015",
+        "Plataforma original: PS4",
+        "DLC principal: The Old Hunters",
+        "Género: RPG de acción"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Guías de jefes",
+      "tertiaryCta": "Armas y builds",
+      "videoLabel": "Contenido oficial"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje por Bloodborne",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende los orígenes, las armas iniciales, el Reagrupamiento, los desvíos con armas de fuego, los viales de sangre y la ruta más segura por Yharnam Central."
+        },
+        {
+          "number": "2",
+          "title": "Mejores builds",
+          "description": "Elige una senda de Fuerza, Destreza, Sangre o Arcano con objetivos de atributos claros y combinaciones de armas tempranas."
+        },
+        {
+          "number": "3",
+          "title": "Guía de jefes",
+          "description": "Prepárate para todos los combates obligatorios, desde el Padre Gascoigne hasta la Nodriza Húmeda de Mergo, con orden y tácticas."
+        },
+        {
+          "number": "4",
+          "title": "Lista de niveles de armas",
+          "description": "Compara armas trucadas y de fuego por daño, moveset, escalado y estilo de juego para principiantes."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Guías de Bloodborne en tendencia",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Lista de niveles de armas",
+        "Orden de jefes",
+        "Mejores builds"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Aprende los orígenes, las armas iniciales, el ritmo del combate, los ecos de sangre y los primeros jefes de Yharnam.",
+          "href": "/guide/bloodborne-beginner-guide"
+        },
+        {
+          "badge": "Armas",
+          "title": "Lista de niveles de armas",
+          "description": "Todas las armas trucadas importantes clasificadas de S a C con notas de build y prioridades de mejora.",
+          "href": "/combat/bloodborne-weapon-tier-list"
+        },
+        {
+          "badge": "Jefes",
+          "title": "Jefes en orden",
+          "description": "Los 17 jefes del juego base en orden de progresión, separando los combates obligatorios de los opcionales.",
+          "href": "/guide/bloodborne-bosses-in-order"
+        },
+        {
+          "badge": "Builds",
+          "title": "Mejores builds",
+          "description": "Objetivos de atributos, armas características y repartos de nivel 120 para diez builds de Bloodborne.",
+          "href": "/combat/bloodborne-best-builds"
+        },
+        {
+          "badge": "DLC",
+          "title": "Acceso a The Old Hunters",
+          "description": "Desbloquea la expansión con el Ojo de un Cazador Ebrio de Sangre y el agarre de la Amígdala.",
+          "href": "/guide/bloodborne-dlc-how-to-access"
+        },
+        {
+          "badge": "Objetos",
+          "title": "Ubicaciones de la Roca de Sangre",
+          "description": "Encuentra materiales de mejora +10 garantizados, existencias de la tienda de Perspicacia y fuentes de las Mazmorras del Cáliz.",
+          "href": "/items/bloodborne-blood-rock"
+        },
+        {
+          "badge": "Ruta",
+          "title": "Orden de zonas",
+          "description": "Sigue la ruta crítica por Yharnam y coloca las zonas opcionales donde más te ayuden.",
+          "href": "/guide/bloodborne-area-order"
+        },
+        {
+          "badge": "Finales",
+          "title": "Los tres finales",
+          "description": "Descubre cómo la elección de Gehrman y los cordones umbilicales desbloquean todos los finales de Bloodborne.",
+          "href": "/guide/bloodborne-endings-explained"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Bloodborne?",
+      "paragraphs": [
+        "Bloodborne es un RPG de acción gótico desarrollado por FromSoftware y dirigido por Hidetaka Miyazaki. Lanzado para PlayStation 4 el 24 de marzo de 2015, te pone en la piel de un cazador en Yharnam, una ciudad consumida por una plaga de bestias y marcada por la obsesión de la Iglesia de la Curación con la ministración de sangre.",
+        "El combate premia la agresividad: las armas trucadas se transforman a mitad de combo, las armas de fuego crean aperturas de desvío para ataques viscerales y el sistema de Reagrupamiento te permite recuperar salud perdida al contraatacar. La ciudad interconectada, las Mazmorras del Cáliz opcionales, las enigmáticas misiones de los PNJ y la expansión The Old Hunters favorecen las partidas repetidas y una profunda senda de lore."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "FromSoftware"
+        },
+        {
+          "label": "Distribuidora",
+          "value": "Sony Interactive Entertainment"
+        },
+        {
+          "label": "Lanzamiento",
+          "value": "24 de marzo de 2015"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PlayStation 4"
+        },
+        {
+          "label": "Director",
+          "value": "Hidetaka Miyazaki"
+        },
+        {
+          "label": "Expansión",
+          "value": "The Old Hunters"
+        }
+      ],
+      "cta": "Explora todas las guías"
+    },
+    "explore": {
+      "title": "Explora la Wiki de Bloodborne",
+      "description": "Ocho guías centradas cubren las primeras horas, la elección de armas, el orden de los jefes, la planificación de builds, la progresión del mundo, las Mazmorras del Cáliz, The Old Hunters y los finales del juego.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de Bloodborne",
+          "description": "Aprende la creación de personaje, las armas iniciales, el ritmo del combate, la curación, la subida de nivel, el Sueño del Cazador y una ruta práctica por Yharnam Central.",
+          "href": "/guide/bloodborne-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Elige Superviviente Solitario o Insulso para una primera partida más segura; después equipa un arma cuerpo a cuerpo y un arma de fuego en el Sueño del Cazador."
+            },
+            {
+              "label": "2",
+              "detail": "Escoge la Cuchilla de Sierra para un daño equilibrado, el Hacha del Cazador para control de multitudes o el Bastón Enroscado para alcanzar más lejos."
+            },
+            {
+              "label": "3",
+              "detail": "Practica el Reagrupamiento golpeando después de recibir un impacto y usa los fotogramas de invencibilidad del Paso Rápido para esquivar atravesando los ataques."
+            },
+            {
+              "label": "4",
+              "detail": "Dispara justo antes de que aterrice un ataque enemigo para desviarlo y aprovecha el tambaleo con un ataque visceral de gran daño."
+            },
+            {
+              "label": "5",
+              "detail": "Gasta ecos de sangre con la Muñeca antes de un jefe y mejora el arma con Fragmentos de Piedra de Sangre en el Taller."
+            },
+            {
+              "label": "6",
+              "detail": "Enciende todas las lámparas, abre las puertas de atajo y atrae a los enemigos de Yharnam Central de uno en uno antes de enfrentarte al Padre Gascoigne."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Lista de niveles de armas de Bloodborne",
+          "description": "Clasifica armas trucadas y de fuego por daño, versatilidad, coste de resistencia, escalado y ajuste a las builds de Fuerza, Destreza, Sangre y Arcano.",
+          "href": "/combat/bloodborne-weapon-tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "La Cuchilla de Sierra, la Lanza de Sierra, la Hoja Sagrada de Ludwig, la Sierra Chirriante, la Espada Sagrada de Luz Lunar, el Rakuyo, el Saif de Cazabestias y la Chikage combinan el máximo daño con movesets flexibles."
+            },
+            {
+              "label": "A",
+              "detail": "El Hacha del Cazador, el Martillo de Kirk, las Hojas de la Misericordia, la Hoja Sepulcral, la Pica de la Iglesia, la Hoja Arco de Simon, la Letra de Sangre, el Tonitrus, el Parásito de Kos y la Rueda de Logarius cambian una debilidad por una gran utilidad."
+            },
+            {
+              "label": "B",
+              "detail": "El Bastón Enroscado, el Clavaestacas, la Lanza Fusil, la Reiterpallasch, el Cortador de Bestias, el Martillo Detonante, el Brazo Amigdalano y la Garra de Bestia recompensan a las builds especializadas."
+            },
+            {
+              "label": "C",
+              "detail": "El Puño de Gratia y las armas fuera de build se quedan aquí porque su daño o utilidad queda por detrás de las configuraciones dedicadas."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía de jefes de Bloodborne",
+          "description": "Prepárate para los encuentros obligatorios y opcionales con el orden de progresión, los ataques peligrosos, las debilidades y las tácticas prácticas de cada combate importante.",
+          "href": "/guide/bloodborne-bosses-in-order",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Clérigo",
+              "detail": "Primer jefe opcional en el Gran Puente; su insignia amplía la tienda del Mensajero del Baño."
+            },
+            {
+              "label": "Gascoigne",
+              "detail": "El primer muro obligatorio; desvía sus ataques de cazador y evita rodar presa del pánico."
+            },
+            {
+              "label": "Amelia",
+              "detail": "Jefa obligatoria del Barrio de la Catedral; usa Niebla Entumecedora para detener su curación."
+            },
+            {
+              "label": "Sombras",
+              "detail": "Combate obligatorio en el Bosque Prohibido contra tres enemigos; controla al grupo y elimina primero la amenaza a distancia."
+            },
+            {
+              "label": "Rom",
+              "detail": "Jefe obligatorio de Byrgenwerth; elimina a los añadidos y vigila los proyectiles arcanos."
+            },
+            {
+              "label": "Nodriza",
+              "detail": "Jefa obligatoria de la Pesadilla de Mensis con ataques de clones; sigue moviéndote y castiga las aperturas seguras."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Builds y atributos de Bloodborne",
+          "description": "Comprende los límites suaves de los atributos, el escalado de las armas y los repartos de nivel 120 para builds de Fuerza, Destreza, Sangre, Arcano y calidad.",
+          "href": "/combat/bloodborne-best-builds",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "VIT",
+              "detail": "Llega a 30 pronto y a 50 más tarde; Vitalidad es la inversión más indulgente para los cazadores nuevos."
+            },
+            {
+              "label": "RES",
+              "detail": "Apunta a 20-30 de Resistencia para tener más golpes y esquivas antes de los rendimientos decrecientes."
+            },
+            {
+              "label": "FUE",
+              "detail": "Detente en 25 o 50 de Fuerza para armas pesadas como la Sierra Chirriante y el Martillo de Kirk."
+            },
+            {
+              "label": "DES",
+              "detail": "Destreza aumenta el daño de las armas rápidas y los ataques viscerales; 25 o 50 son los puntos clave."
+            },
+            {
+              "label": "SAN",
+              "detail": "Sangre a 50 favorece a la Chikage, la Hoja Arco de Simon, la Letra de Sangre y las builds centradas en armas de fuego."
+            },
+            {
+              "label": "ARC",
+              "detail": "Arcano a 50 potencia las Herramientas de Cazador y las armas elementales, pero despega más tarde que los atributos físicos."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Recorrido y guía de zonas de Bloodborne",
+          "description": "Sigue la ruta interconectada desde Yharnam Central hasta la Pesadilla de Mensis, con atajos, desvíos opcionales y puntos de control de progresión.",
+          "href": "/guide/bloodborne-area-order",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Central",
+              "detail": "Abre los atajos de las lámparas, considera la Bestia Clérigo opcional y luego derrota al Padre Gascoigne."
+            },
+            {
+              "label": "Catedral",
+              "detail": "Llega al Barrio de la Catedral, habla con el Habitante de la Capilla de Oedon y derrota a la Vicaria Amelia."
+            },
+            {
+              "label": "Ciudad Vieja",
+              "detail": "Yharnam Antigua es opcional, pero concede el Cáliz de Pthumeru y la ruta gratuita a la puerta del Barrio de la Catedral."
+            },
+            {
+              "label": "Prohibido",
+              "detail": "Sigue la ruta del Bosque Prohibido hasta las Sombras de Yharnam y abre pronto la puerta de atajo."
+            },
+            {
+              "label": "Byrgen",
+              "detail": "Derrota a Rom en Byrgenwerth para desencadenar la Luna de Sangre y desbloquear el cambio de la recta final."
+            },
+            {
+              "label": "Mensis",
+              "detail": "Termina la Pesadilla de Mensis y vuelve al Sueño del Cazador para la elección final."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de las Mazmorras del Cáliz de Bloodborne",
+          "description": "Comprende la obtención de cálices, los materiales rituales, las capas de las mazmorras, el escalado de Profundidad, los cálices raíz y las recompensas que hacen valiosas las mazmorras opcionales.",
+          "href": "/items/bloodborne-blood-rock",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Pthumeru",
+              "detail": "El primer Cáliz de Pthumeru procede de la Bestia Hambrienta de Sangre y abre la línea principal de mazmorras."
+            },
+            {
+              "label": "Loran",
+              "detail": "Loran Enfermizo añade sus propios jefes, materiales y cálices raíz para obtener botín de mayor nivel."
+            },
+            {
+              "label": "Isz",
+              "detail": "Las mazmorras de Isz están detrás de Ebrietas y ofrecen otra ruta hacia las recompensas de Profundidad 5."
+            },
+            {
+              "label": "Profundidad 5",
+              "detail": "La Profundidad marca la dificultad; los cálices raíz de Profundidad 5 producen las gemas, runas y probabilidades de Roca de Sangre más potentes."
+            },
+            {
+              "label": "Ritos",
+              "detail": "Los ritos Fétido, Podrido y Maldito aumentan el peligro y mejoran la calidad de las recompensas generadas."
+            },
+            {
+              "label": "Roca",
+              "detail": "Hay una Roca de Sangre disponible por cada tipo de cáliz de Pthumeru, Loran e Isz, además de raras caídas de jefes de Profundidad 5."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guía de The Old Hunters de Bloodborne",
+          "description": "Desbloquea la expansión, prepárate para su salto de dificultad y recorre la Pesadilla del Cazador, la Sala de Investigación, la Torre del Reloj Astral, la Aldea Pesquera y sus jefes.",
+          "href": "/guide/bloodborne-dlc-how-to-access",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Acceso",
+              "detail": "Derrota a la Vicaria Amelia, toca el cráneo, recoge el Ojo de un Cazador Ebrio de Sangre y deja que la Amígdala te agarre fuera de la Capilla de Oedon."
+            },
+            {
+              "label": "Zonas",
+              "detail": "La expansión avanza por la Pesadilla del Cazador, la Sala de Investigación, la Torre del Reloj Astral y la Aldea Pesquera."
+            },
+            {
+              "label": "Armas",
+              "detail": "La expansión añade un gran conjunto de armas trucadas en su zona inicial y en áreas posteriores; se pueden llevar de vuelta al juego base."
+            },
+            {
+              "label": "Maria",
+              "detail": "Lady Maria es un duelo rápido y desviable que castiga el rodar presa del pánico y la curación codiciosa."
+            },
+            {
+              "label": "Kos",
+              "detail": "El Huérfano de Kos es el jefe final del DLC y el encuentro más difícil de la expansión."
+            },
+            {
+              "label": "Laurence",
+              "detail": "Laurence, el Primer Vicario es un combate opcional centrado en el fuego y oculto en la Gran Catedral."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Guía de finales y secretos de Bloodborne",
+          "description": "Compara los tres finales, los requisitos del cordón umbilical, la elección final de Gehrman, la Presencia Lunar y los detalles de las misiones que son fáciles de pasar por alto.",
+          "href": "/guide/bloodborne-endings-explained",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Amanecer",
+              "detail": "Acepta la oferta de Gehrman después de la Nodriza Húmeda de Mergo para alcanzar el Amanecer de Yharnam sin otro combate contra un jefe."
+            },
+            {
+              "label": "Deseos",
+              "detail": "Rechaza a Gehrman, derrótalo y ocupa su lugar en el Sueño del Cazador para Honrar los Deseos."
+            },
+            {
+              "label": "Infancia",
+              "detail": "Consume tres objetos Un Tercio de Cordón Umbilical, rechaza a Gehrman y derrota a la Presencia Lunar para el Comienzo de la Infancia."
+            },
+            {
+              "label": "Cordones",
+              "detail": "En una partida existen cuatro cordones umbilicales, pero solo hay que usar tres antes de la elección final."
+            },
+            {
+              "label": "Gehrman",
+              "detail": "Sus rápidos ataques con guadaña castigan la curación y el rodar presa del pánico; esquiva atravesando el arco y desvía cuando puedas."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre Bloodborne",
+      "description": "Respuestas directas sobre el combate, la subida de nivel, el acceso al DLC, las penalizaciones por muerte y las plataformas de Bloodborne.",
+      "items": [
+        {
+          "question": "¿Qué es Bloodborne?",
+          "answer": "Bloodborne es un RPG de acción gótico desarrollado por FromSoftware y lanzado para PlayStation 4 el 24 de marzo de 2015. Los jugadores se convierten en cazadores en la ciudad de Yharnam, azotada por la plaga, y usan armas trucadas transformables y armas de fuego para luchar contra bestias, Grandes Seres y otros cazadores."
+        },
+        {
+          "question": "¿Cómo funciona el combate de Bloodborne?",
+          "answer": "Bloodborne premia la agresividad controlada. El Reagrupamiento te permite recuperar salud perdida recientemente al atacar después de recibir un golpe, los desvíos con armas de fuego crean aperturas para ataques viscerales y el Paso Rápido ofrece fotogramas de invencibilidad cuando se sincroniza bien."
+        },
+        {
+          "question": "¿Cómo subo de nivel en Bloodborne?",
+          "answer": "Los ecos de sangre sirven como moneda y experiencia en Bloodborne. Gástalos con la Muñeca en el Sueño del Cazador para aumentar Vitalidad, Resistencia, Fuerza, Destreza, Sangre o Arcano."
+        },
+        {
+          "question": "¿Cómo accedo a The Old Hunters en Bloodborne?",
+          "answer": "En Bloodborne, derrota a la Vicaria Amelia, toca el cráneo detrás de su arena, recoge el Ojo de un Cazador Ebrio de Sangre en el Sueño del Cazador y luego colócate en la plaza del Barrio de la Catedral, fuera de la Capilla de Oedon, para que la Amígdala te agarre."
+        },
+        {
+          "question": "¿Qué ocurre cuando mueres en Bloodborne?",
+          "answer": "Cuando mueres en Bloodborne, los ecos de sangre que llevas caen en el lugar de la muerte o pasan a un enemigo cercano. Recupéralos antes de morir otra vez; una segunda muerte sin recuperarlos elimina esa reserva de forma permanente."
+        },
+        {
+          "question": "¿Existe una versión oficial para PC de Bloodborne?",
+          "answer": "No existe una versión oficial para PC de Bloodborne publicada por Sony. El juego sigue siendo un título de PlayStation 4 y se puede jugar en PlayStation 5 mediante retrocompatibilidad; los proyectos comunitarios de emulación y carga requieren tu propia copia."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para dominar la caza?",
+      "description": "Desde tus primeros pasos en Yharnam Central hasta las pesadillas de The Old Hunters, nuestra wiki comunitaria cubre jefes, armas trucadas, builds y lore oculto.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar en PlayStation"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías de Bloodborne",
+    "overviewDescription": "Rutas para principiantes, recorridos, orden de jefes, acceso al DLC, finales, misiones y guía de trofeos de Bloodborne."
+  },
+  "combat": {
+    "overviewTitle": "Combate de Bloodborne",
+    "overviewDescription": "Clasificaciones de armas, guías de armas trucadas, builds de Arcano y Sangre, ataques viscerales y fundamentos del combate."
+  },
+  "items": {
+    "overviewTitle": "Objetos de Bloodborne",
+    "overviewDescription": "Listas de armas, conjuntos de armadura, runas de Caryll, herramientas de cazador, materiales de mejora y ubicaciones de la Roca de Sangre."
+  },
+  "characters": {
+    "overviewTitle": "Personajes de Bloodborne",
+    "overviewDescription": "Personajes principales, misiones de PNJ, Eileen la Cuervo y la Reina Yharnam."
+  },
+  "maps": {
+    "overviewTitle": "Mapas de Bloodborne",
+    "overviewDescription": "Rutas de Yharnam, mapas del Bosque Prohibido, ubicaciones y guía del mapa interactivo."
+  },
+  "lore": {
+    "overviewTitle": "Lore de Bloodborne",
+    "overviewDescription": "Explicaciones de la historia, los Grandes Seres, la historia oculta y el final secreto del juego."
+  },
+  "community": {
+    "overviewTitle": "Comunidad de Bloodborne",
+    "overviewDescription": "Recursos de Reddit, debate sobre la versión de PC, cooperativo sin interrupciones y ajustes para PC."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en PlayStation",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lectura relacionada",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Contenido oficial",
+    "home": "Inicio",
+    "noGuidesAvailable": "Todavía no hay guías disponibles. ¡Vuelve pronto!",
+    "notFoundTitle": "Página no encontrada",
+    "notFoundDescription": "La guía que buscas puede haberse movido o aún no se ha añadido.",
+    "browseBossGuides": "Ver guías de jefes"
+  },
+  "footer": {
+    "aboutTitle": "Wiki de Bloodborne",
+    "about": "La Wiki de Bloodborne es un centro de guías independiente creado por fans que cubre estrategias contra jefes, armas trucadas, builds, el DLC The Old Hunters, lore oculto y conocimientos esenciales del juego tanto para cazadores nuevos como veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Wiki de Bloodborne. Sin afiliación con FromSoftware ni Sony Interactive Entertainment.",
+    "description": "RPG de acción gótico de FromSoftware. Explora Yharnam, domina las armas trucadas y enfréntate a las pesadillas de The Old Hunters.",
+    "playGame": "Jugar en PlayStation",
+    "officialDiscord": "Comunidad de Reddit de Bloodborne",
+    "officialYoutube": "YouTube de PlayStation",
+    "vvBuilder": "Guías de builds de Bloodborne",
+    "beginnerGuide": "Guía para principiantes",
+    "raceGuides": "Guías de personajes",
+    "bossGuides": "Guías de jefes",
+    "buildGuide": "Guía de builds",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos del servicio"
+  }
+}
