@@ -34,293 +34,409 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Bloodborne Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn origins, starting weapons, Rally, gun parries, Blood Vials, and the safest route through Central Yharnam."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Builds",
+          "description": "Choose a Strength, Skill, Bloodtinge, or Arcane path with clear stat targets and early weapon pairings."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Boss Guide",
+          "description": "Prepare for every required encounter, from Father Gascoigne to Mergo's Wet Nurse, with order and tactics."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Weapon Tier List",
+          "description": "Compare trick weapons and firearms by damage, moveset, scaling, and beginner-friendly playstyle."
         }
       ]
     },
     "popular": {
       "eyebrow": "Popular Pages",
-      "title": "Trending Now",
+      "title": "Trending Bloodborne Guides",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Weapon Tier List",
+        "Boss Order",
+        "Best Builds"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Learn origins, starting weapons, combat timing, Blood Echoes, and the first Yharnam bosses.",
+          "href": "/guide/bloodborne-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Weapons",
+          "title": "Weapon Tier List",
+          "description": "Every major trick weapon ranked from S to C with build notes and upgrade priorities.",
+          "href": "/combat/bloodborne-weapon-tier-list"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Bosses",
+          "title": "Bosses in Order",
+          "description": "All 17 base-game bosses in progression order, with required and optional fights separated.",
+          "href": "/guide/bloodborne-bosses-in-order"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
+          "badge": "Builds",
           "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "description": "Stat targets, signature weapons, and level 120 spreads for ten Bloodborne builds.",
+          "href": "/combat/bloodborne-best-builds"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "DLC",
+          "title": "The Old Hunters Access",
+          "description": "Unlock the expansion with the Eye of a Blood-Drunk Hunter and the Amygdala grab.",
+          "href": "/guide/bloodborne-dlc-how-to-access"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Items",
+          "title": "Blood Rock Locations",
+          "description": "Find guaranteed +10 upgrade materials, Insight shop stock, and Chalice Dungeon sources.",
+          "href": "/items/bloodborne-blood-rock"
+        },
+        {
+          "badge": "Route",
+          "title": "Area Order",
+          "description": "Follow the critical path through Yharnam and place optional zones where they help most.",
+          "href": "/guide/bloodborne-area-order"
+        },
+        {
+          "badge": "Endings",
+          "title": "All Three Endings",
+          "description": "See how Gehrman's choice and the umbilical cords unlock every Bloodborne finale.",
+          "href": "/guide/bloodborne-endings-explained"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Bloodborne?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Bloodborne is a gothic action RPG developed by FromSoftware and directed by Hidetaka Miyazaki. Released for PlayStation 4 on March 24, 2015, it casts you as a Hunter in Yharnam, a city consumed by a beast plague and shaped by the Healing Church's obsession with blood ministration.",
+        "Combat rewards aggression: trick weapons transform mid-combo, firearms create parry openings for visceral attacks, and the Rally system lets you recover lost health by striking back. The interconnected city, optional Chalice Dungeons, cryptic NPC questlines, and The Old Hunters expansion support repeated playthroughs and a deep lore trail."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "FromSoftware"
+        },
+        {
+          "label": "Publisher",
+          "value": "Sony Interactive Entertainment"
+        },
+        {
+          "label": "Release",
+          "value": "March 24, 2015"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PlayStation 4"
         },
         {
-          "label": "Genre",
-          "value": "Fighting RPG"
+          "label": "Director",
+          "value": "Hidetaka Miyazaki"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
-        },
-        {
-          "label": "Favorites",
-          "value": "243K+"
-        },
-        {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Expansion",
+          "value": "The Old Hunters"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore the Bloodborne Wiki",
+      "description": "Eight focused guides cover the opening hours, weapon choices, boss order, build planning, world progression, Chalice Dungeons, The Old Hunters, and the game's endings.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Bloodborne Beginner Guide",
+          "description": "Learn character creation, starting weapons, combat timing, healing, leveling, the Hunter's Dream, and a practical route through Central Yharnam.",
+          "href": "/guide/bloodborne-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Pick Lone Survivor or Milquetoast for a safer first run, then equip a melee weapon and firearm in the Hunter's Dream."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Choose the Saw Cleaver for balanced damage, the Hunter Axe for crowd control, or the Threaded Cane for reach."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Practice Rally by striking back after a hit, and use the Quickstep's invincibility frames to dodge through attacks."
+            },
+            {
+              "label": "4",
+              "detail": "Fire just before an enemy attack lands to parry, then follow the stagger with a high-damage visceral attack."
+            },
+            {
+              "label": "5",
+              "detail": "Spend Blood Echoes with the Doll before a boss and upgrade your weapon with Blood Stone Shards at the Workshop."
+            },
+            {
+              "label": "6",
+              "detail": "Light every lamp, open shortcut gates, and pull Central Yharnam enemies one at a time before facing Father Gascoigne."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Bloodborne Weapons Tier List",
+          "description": "Rank trick weapons and firearms by damage, versatility, stamina cost, scaling, and fit for Strength, Skill, Bloodtinge, and Arcane builds.",
+          "href": "/combat/bloodborne-weapon-tier-list",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Saw Cleaver, Saw Spear, Ludwig's Holy Blade, Whirligig Saw, Holy Moonlight Sword, Rakuyo, Beasthunter Saif, and Chikage combine top damage with flexible movesets."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Hunter Axe, Kirkhammer, Blades of Mercy, Burial Blade, Church Pick, Simon's Bowblade, Bloodletter, Tonitrus, Kos Parasite, and Logarius' Wheel trade one weakness for strong utility."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Threaded Cane, Stake Driver, Rifle Spear, Reiterpallasch, Beast Cutter, Boom Hammer, Amygdalan Arm, and Beast Claw reward specialist builds."
+            },
+            {
+              "label": "C",
+              "detail": "Fist of Gratia and off-build weapons sit here because their damage or utility falls behind dedicated setups."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Bloodborne Boss Guide",
+          "description": "Prepare for required and optional encounters with progression order, dangerous attacks, weaknesses, and practical tactics for every major fight.",
+          "href": "/guide/bloodborne-bosses-in-order",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Cleric",
+              "detail": "Optional first boss on the Great Bridge; its badge expands the Bath Messenger shop."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Gascoigne",
+              "detail": "The first required wall; parry his hunter attacks and avoid panic-rolling."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Amelia",
+              "detail": "Required Cathedral Ward boss; use Numbing Mist to stop her healing."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Shadows",
+              "detail": "Required Forbidden Woods fight against three enemies; control the group and remove the ranged threat."
+            },
+            {
+              "label": "Rom",
+              "detail": "Required Byrgenwerth boss; clear the adds and watch for arcane projectiles."
+            },
+            {
+              "label": "Wet Nurse",
+              "detail": "Required Nightmare of Mensis boss with clone attacks; keep moving and punish safe openings."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Bloodborne Builds and Stats",
+          "description": "Understand attribute soft caps, weapon scaling, and level 120 spreads for Strength, Skill, Bloodtinge, Arcane, and quality builds.",
+          "href": "/combat/bloodborne-best-builds",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "VIT",
+              "detail": "Reach 30 early and 50 late; Vitality is the most forgiving investment for new hunters."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "END",
+              "detail": "Target 20-30 Endurance for extra swings and dodges before diminishing returns."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "STR",
+              "detail": "Stop at 25 or 50 Strength for heavy weapons such as the Whirligig Saw and Kirkhammer."
+            },
+            {
+              "label": "SKL",
+              "detail": "Skill raises fast-weapon damage and visceral attacks; 25 or 50 are the key breakpoints."
+            },
+            {
+              "label": "BLT",
+              "detail": "Bloodtinge at 50 supports Chikage, Simon's Bowblade, Bloodletter, and firearm-focused builds."
+            },
+            {
+              "label": "ARC",
+              "detail": "Arcane at 50 powers Hunter Tools and elemental weapons, but comes online later than physical stats."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Bloodborne Walkthrough and Area Guide",
+          "description": "Follow the interconnected route from Central Yharnam to the Nightmare of Mensis, with shortcuts, optional detours, and progression checkpoints.",
+          "href": "/guide/bloodborne-area-order",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Central",
+              "detail": "Open the lamp shortcuts, consider the optional Cleric Beast, then beat Father Gascoigne."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Cathedral",
+              "detail": "Reach Cathedral Ward, speak with the Oedon Chapel Dweller, and defeat Vicar Amelia."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Old Town",
+              "detail": "Old Yharnam is optional but grants the Pthumeru Chalice and the free Cathedral Ward gate route."
+            },
+            {
+              "label": "Forbidden",
+              "detail": "Follow the Forbidden Woods route to Shadows of Yharnam and open its shortcut gate early."
+            },
+            {
+              "label": "Byrgen",
+              "detail": "Defeat Rom at Byrgenwerth to trigger the Blood Moon and unlock the late-game shift."
+            },
+            {
+              "label": "Mensis",
+              "detail": "Finish the Nightmare of Mensis, then return to the Hunter's Dream for the final choice."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Bloodborne Chalice Dungeon Guide",
+          "description": "Understand Chalice acquisition, ritual materials, dungeon layers, Depth scaling, root chalices, and the rewards that make the optional dungeons worthwhile.",
+          "href": "/items/bloodborne-blood-rock",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Pthumeru",
+              "detail": "The first Pthumeru Chalice comes from the Blood-Starved Beast and opens the main dungeon line."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Loran",
+              "detail": "Ailing Loran adds its own bosses, materials, and root chalices for higher-tier loot."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Isz",
+              "detail": "Isz dungeons sit behind Ebrietas and provide another route to Depth 5 rewards."
+            },
+            {
+              "label": "Depth 5",
+              "detail": "Depth sets difficulty; Depth 5 root chalices produce the strongest gems, runes, and Blood Rock chances."
+            },
+            {
+              "label": "Rites",
+              "detail": "Fetid, Rotted, and Cursed rites raise danger and improve the quality of generated rewards."
+            },
+            {
+              "label": "Rock",
+              "detail": "One Blood Rock is available per Pthumeru, Loran, and Isz chalice type, with rare Depth 5 boss drops."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Bloodborne DLC The Old Hunters Guide",
+          "description": "Unlock the expansion, prepare for its difficulty spike, and cover Hunter's Nightmare, Research Hall, the Astral Clocktower, Fishing Hamlet, and their bosses.",
+          "href": "/guide/bloodborne-dlc-how-to-access",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Access",
+              "detail": "Defeat Vicar Amelia, touch the skull, collect the Eye of a Blood-Drunk Hunter, then let the Amygdala grab you outside Oedon Chapel."
+            },
+            {
+              "label": "Areas",
+              "detail": "The expansion moves through Hunter's Nightmare, Research Hall, the Astral Clocktower, and Fishing Hamlet."
+            },
+            {
+              "label": "Weapons",
+              "detail": "The expansion adds a large set of trick weapons in its opening zone and later areas; they carry back into the base game."
+            },
+            {
+              "label": "Maria",
+              "detail": "Lady Maria is a fast, parryable duel that punishes panic-rolling and greedy healing."
+            },
+            {
+              "label": "Kos",
+              "detail": "Orphan of Kos is the final DLC boss and the hardest encounter in the expansion."
+            },
+            {
+              "label": "Laurence",
+              "detail": "Laurence, the First Vicar is an optional fire-heavy fight hidden in the Grand Cathedral."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Bloodborne Endings and Secrets Guide",
+          "description": "Compare all three endings, the umbilical cord requirements, Gehrman's final choice, the Moon Presence, and the quest details that are easy to miss.",
+          "href": "/guide/bloodborne-endings-explained",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Sunrise",
+              "detail": "Accept Gehrman's offer after Mergo's Wet Nurse to reach Yharnam Sunrise without another boss fight."
+            },
+            {
+              "label": "Wishes",
+              "detail": "Refuse Gehrman, defeat him, and take his place in the Hunter's Dream for Honoring Wishes."
+            },
+            {
+              "label": "Childhood",
+              "detail": "Consume three One Third of Umbilical Cord items, refuse Gehrman, and beat the Moon Presence for Childhood's Beginning."
+            },
+            {
+              "label": "Cords",
+              "detail": "Four umbilical cords exist in a playthrough, but only three must be used before the final choice."
+            },
+            {
+              "label": "Gehrman",
+              "detail": "His fast scythe attacks punish healing and panic-rolling; dodge through the arc and parry where possible."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "title": "Bloodborne FAQ",
+      "description": "Straight answers about Bloodborne's combat, leveling, DLC access, death penalties, and platforms.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Bloodborne?",
+          "answer": "Bloodborne is a gothic action RPG developed by FromSoftware and released for PlayStation 4 on March 24, 2015. Players become Hunters in the plague-stricken city of Yharnam, using transforming trick weapons and firearms to fight beasts, Great Ones, and other hunters."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How does Bloodborne's combat work?",
+          "answer": "Bloodborne rewards controlled aggression. Rally lets you recover recently lost health by attacking after a hit, firearm parries create visceral attack openings, and the Quickstep provides invincibility frames when timed correctly."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do I level up in Bloodborne?",
+          "answer": "Blood Echoes serve as both currency and experience in Bloodborne. Spend them at the Doll in the Hunter's Dream to raise Vitality, Endurance, Strength, Skill, Bloodtinge, or Arcane."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I access The Old Hunters in Bloodborne?",
+          "answer": "In Bloodborne, defeat Vicar Amelia, touch the skull behind her arena, collect the Eye of a Blood-Drunk Hunter in the Hunter's Dream, then stand in the Cathedral Ward plaza outside Oedon Chapel and let the Amygdala grab you."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "What happens when you die in Bloodborne?",
+          "answer": "When you die in Bloodborne, your carried Blood Echoes drop at the death site or transfer to a nearby enemy. Recover them before dying again; a second death without recovery removes that pool permanently."
+        },
+        {
+          "question": "Is there an official PC version of Bloodborne?",
+          "answer": "No official Sony-published PC version of Bloodborne exists. The game remains a PlayStation 4 title and is playable on PlayStation 5 through backward compatibility; community emulation and loader projects require your own copy."
         }
       ]
     },
